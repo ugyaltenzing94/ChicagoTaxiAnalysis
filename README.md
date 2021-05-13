@@ -328,6 +328,9 @@ For each model created using experiments, we ran it on our respective test data 
 1. Prediction in Memory - load the model in the notebook and run it.
 2. AI Platform Prediction - create a structure for the new incoming data so that it can be fed into the model. The model will then run as a job in AI platform and then submit the output in a cloud storage bucket.
 
+![ExperimentOneTable](https://user-images.githubusercontent.com/81349521/118136423-bb0c5480-b421-11eb-9a73-0df12d792424.PNG)
+
+
 All the related code is in the following notebook :
 ```
 Inference.ipynb

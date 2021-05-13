@@ -107,6 +107,8 @@ A multilayer perceptron (MLP) is a class of feedforward artificial neural networ
 An MLP consists of at least three layers of nodes: an input layer, a hidden layer and an output layer. Except for the input nodes, each node is a neuron that uses a nonlinear activation function. MLP utilizes a supervised learning technique called backpropagation for training. Its multiple layers and non-linear activation distinguish MLP from a linear perceptron. It can distinguish data that is not linearly separable. 
 A Sequential model is appropriate for a plain stack of layers where each layer has exactly one input tensor and one output tensor.
 
+![image](https://user-images.githubusercontent.com/81349521/118134473-97480f00-b41f-11eb-96c5-b93ef0e3b8f1.png)
+
 
  A brief explanation of the model architecture:
 - A dense feature layer stores meta data about the features being sent into the model. This helps automate the process of normalization, one-hot encoding, etc without the need of an additional preprocessing pipeline. Hence, the data preprocessing is done partly as part of the model input step.

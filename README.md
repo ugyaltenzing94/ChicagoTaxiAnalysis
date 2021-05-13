@@ -7,6 +7,12 @@ The emergence and rapid rise of app-based, on-demand ride services provided by t
 Hence we zeroed down this final use case:
 _To predict the geographic location with the highest rider density  as a way to optimize the active time of a driver. This can be used to safe fuel expenses , provide cabs at places with high demand ensuing profitability , better traffic management and potentially reduce the customer wait time._
 
+#### Chicago geogrpahic locations
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81349521/118137860-4fc38200-b423-11eb-9895-9b3c2b04b47c.png" />
+</p>
+
 #### GCP Project ID
 ````
 us-gcp-ame-con-01e-npd-1
@@ -328,11 +334,32 @@ For each model created using experiments, we ran it on our respective test data 
 1. Prediction in Memory - load the model in the notebook and run it.
 2. AI Platform Prediction - create a structure for the new incoming data so that it can be fed into the model. The model will then run as a job in AI platform and then submit the output in a cloud storage bucket.
 
+
+Here are the tables and scores based on our experimentation.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81349521/118137534-ec395480-b422-11eb-8bbe-2e18390fca5a.PNG" />
+</p>
+
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/81349521/118136423-bb0c5480-b421-11eb-9a73-0df12d792424.PNG" />
 </p>
 
-All the related code is in the following notebook :
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81349521/118136423-bb0c5480-b421-11eb-9a73-0df12d792424.PNG" />
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81349521/118137656-13902180-b423-11eb-8bca-c3e0e5314cd3.PNG" />
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81349521/118137586-ffe4bb00-b422-11eb-81a4-ce582e8541c3.PNG" />
+</p>
+
+
+For more details and all the related code, please follow the following notebook :
 ```
 Inference.ipynb
 ``` 

@@ -231,6 +231,9 @@ This is the Driver program of the entire module. It contains the functions to ge
 Check this python notebook for more details:
 ```
 Training-Experiment-1.ipynb
+Training-Experiment-1.ipynb
+Training-Experiment-2.ipynb
+Training-Experiment-3.ipynb
 ``` 
 
 ## 9. Implementation

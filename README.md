@@ -347,10 +347,6 @@ Here are the tables and scores based on our experimentation.
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/81349521/118136423-bb0c5480-b421-11eb-9a73-0df12d792424.PNG" />
-</p>
-
-<p align="center">
   <img src="https://user-images.githubusercontent.com/81349521/118137656-13902180-b423-11eb-8bca-c3e0e5314cd3.PNG" />
 </p>
 

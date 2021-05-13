@@ -110,12 +110,7 @@ A Sequential model is appropriate for a plain stack of layers where each layer h
 <p align="center">
   <img src="https://user-images.githubusercontent.com/81349521/118134473-97480f00-b41f-11eb-96c5-b93ef0e3b8f1.png" />
 </p>
-
-
-![image](https://user-images.githubusercontent.com/81349521/118134473-97480f00-b41f-11eb-96c5-b93ef0e3b8f1.png)
-                               
-
-
+                        
  A brief explanation of the model architecture:
 - A dense feature layer stores meta data about the features being sent into the model. This helps automate the process of normalization, one-hot encoding, etc without the need of an additional preprocessing pipeline. Hence, the data preprocessing is done partly as part of the model input step.
 
@@ -333,8 +328,9 @@ For each model created using experiments, we ran it on our respective test data 
 1. Prediction in Memory - load the model in the notebook and run it.
 2. AI Platform Prediction - create a structure for the new incoming data so that it can be fed into the model. The model will then run as a job in AI platform and then submit the output in a cloud storage bucket.
 
-![ExperimentOneTable](https://user-images.githubusercontent.com/81349521/118136423-bb0c5480-b421-11eb-9a73-0df12d792424.PNG)
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81349521/118136423-bb0c5480-b421-11eb-9a73-0df12d792424.PNG" />
+</p>
 
 All the related code is in the following notebook :
 ```

@@ -106,7 +106,7 @@ You can refer to this visualisation notebook for more details.
 ```
 ExplorataryDataAnalysis.ipynb
 ``` 
-## 7. Methadology 
+## 7. Methodology 
 
 The model uses a Sequential Model architecture which is the basic deep learning-based framework for making Multi-Layer Perceptron(MLP) models. The MLP are the basic units of Neural Networks which mimic the behavior of a human brain.
 A multilayer perceptron (MLP) is a class of feedforward artificial neural network (ANN). The term MLP is used ambiguously, sometimes loosely to any feedforward ANN, sometimes strictly to refer to networks composed of multiple layers of perceptrons (with threshold activation).Multilayer perceptrons are sometimes colloquially referred to as "vanilla" neural networks, especially when they have a single hidden layer. 
